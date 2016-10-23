@@ -14,10 +14,10 @@
     <!--Bootstrap + JQuery-->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />        
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+    <script type="text/javascript" src="jquery.bsPhotoGallery.js"></script>
+    <link rel="stylesheet" href="jquery.bsPhotoGallery.css"/>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <!--social media icons-->
-    <script src="https://use.fontawesome.com/320a1a620a.js"></script>
+<script src="https://use.fontawesome.com/320a1a620a.js"></script>
 
 <style>
     .icon{
@@ -85,7 +85,6 @@
         <li><a href="career.html">Career</a></li>
         <li><a href="#">Photography</a></li>
         <li><a href="memes.html">Memes</a></li>
-        <li><a href="#">KANYE</a></li>
      </div>
 
       <div class="collapse navbar-collapse navbar-right">
@@ -114,27 +113,45 @@
   </nav>
 </div>
 
-  <div class="container">
-    <div class="jumbotron" id="welcome">
-      <h1>HI I AM ROHIT</h1>
-      <p>Under construction!</p>
-    </div>
-  </div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-4" > 
-      <img src="images/rohit.jpg" id="picture"> 
-    </div>
-    <div class="col-sm-6">
-      <p>
-        I am Rohit Bandaru, an engineering student at Cornell University.
-      </p>
-    </div>
-    <div class="col-sm-1"></div>
-  </div>
+<div class="row">
+<div class="col-md-1"></div>
+<p class="col-md-10" style="padding-bottom: 20px">
+  Memes are an extremely important aspect of modern society. I am helping advance meme culture by scouring the internet for the dankest memes and reposting them here for you all to see.
+
+<br>
 </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<ul class="first" id="pictures">
+   <script type="text/javascript">
+    for(var i = 1; i < 160; i++){
+      document.write("<li><img src=\"images/Memes/image"+i+".jpg\"></li>")
+    }
+</script>
+</ul>
+</div>
+</div>
+<style>
+ul {
+  list-style-type: none;
+}
+</style>
+
+
+<script>
+
+$(document).ready(function(){
+  $('ul.first').bsPhotoGallery({
+    "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+    "hasModal" : true
+  });
+});
+  </script>
 
 </body>
 
