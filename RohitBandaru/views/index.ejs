@@ -1,0 +1,83 @@
+<DOCTYPE! html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Rohit Bandaru">
+
+    <title>Rohit Bandaru</title>
+
+    <!--Bootstrap + JQuery-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />        
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--social media icons-->
+    <script src="https://use.fontawesome.com/320a1a620a.js"></script>
+
+<style>
+    .icon{
+        padding:10px;
+    }
+    .navbar{
+       /* background-color: #15d9cd;*/
+    }
+    #welcome{
+      background-color: rgb(223, 255, 219);
+      text-align: center ;
+
+    }
+    #welcome > h1 {
+      /*vertical-align: middle;*/
+    }
+    /*prevents navbar overlap*/
+    body { padding-top: 90px; }
+    nav { padding-right: 30px;
+    }
+
+    li {
+      vertical-align: middle;
+    }
+    .collapse{
+      vertical-align: middle;
+    }
+    #picture {
+    width: 100%;
+}
+    </style>
+
+</head>
+
+<body>
+<% include ../views/header %>
+
+
+  <div class="container">
+    <div class="jumbotron" id="welcome">
+      <h1>HI I AM ROHIT</h1>
+      <p>Under construction with ejs!</p>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4" > 
+      <img src="images/rohit.jpg" id="picture"> 
+    </div>
+    <div class="col-sm-6">
+      <p>
+        I am Rohit Bandaru, an engineering student at Cornell University.
+      </p>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+</body>
+
+</html>
