@@ -12,8 +12,8 @@
     <title>Rohit Bandaru</title>
 
     <!--Bootstrap + JQuery-->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />        
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!--social media icons-->
@@ -30,25 +30,21 @@
 <body>
   <section id="header">
     <header>
-      <span class="image avatar"><img src="images/rohit.jpg"></span>
+      <span class="image avatar"><img src="images/0.jpg"></span>
       <h1 id="logo">Rohit Bandaru</h1>
       <p>Student, Engineer, Researcher</p>
     </header>
     <nav id="nav">
       <ul>
         <li><a href="#one" class="active">About</a></li>
-        <!--<li><a href="#two">Skills</a></li>-->
+        <li><a href="#two">Research</a></li>
         <li><a href="#three">Organizations</a></li>
         <li><a href="#four">Projects</a></li>
         <li><a href="#five">Resume</a></li>
         <li><a href="#six">Contact</a></li>
       </ul>
     </nav>
-    
   </section>
-
-
-
 
 <div id="wrapper">
   <div id="main">
@@ -58,53 +54,82 @@
         <header class="major">
           <h1>Rohit Bandaru</h1>
         </header>
-        <p>I am currently a senior/M.Eng. student studying <em>computer science</em> with a minor in <em>electrical and computer engineering</em> at <em style="color:#B31B1B">Cornell University</em>. My academic and research focus is on machine learning and computer vision. I am passionate about solving interesting technical challenges to create great products and solve real world problems. I enjoy and have experience working in a variety of fields from artificial intelligence, full stack web/mobile development, embedded systems, UI/UX design, to even synthetic biology. I am currently looking for full time opportunities for 2019.</p>
+        <p>I am currently a senior/M.Eng. student studying <em>computer science</em> with a minor in <em>electrical and computer engineering</em> at <em style="color:#B31B1B">Cornell University</em>. My academic and research focus is on machine learning and computer vision. I am passionate about solving interesting technical challenges to create great products and solve real world problems. I enjoy and have experience working in a variety of fields from artificial intelligence, full stack web/mobile development, embedded systems, UI/UX design, to even synthetic biology. I will be joining Amazon as a full time software development engineer in July.</p>
       </div>
     </section>
-
-
-   <!-- <section >
-    <div class="container">
-          <div class="row">
-            <div class="col-sm-4" > 
-              <img src="images/cornell.png" id="picture"> 
-            </div>
-            <div class="col-sm-7">
-              <h2>Cornell University</h2>
-            <p>College of Engineering, Class of 2019 (Junior)<br/>
-            <b>Major</b>: Computer Science, Electrical and Computer Engineering<br/>
-            <b>Select Courses:</b>CS 4320 Database Systems, ECE 3150 Microelectronics, CS 3420 Embedded Systems, CS 2110 OOP and Data Structures, ECE 2300 Digital Logic and Computer Organization</p>
-            </div>
-          </div>
-      </div>
-
-    </section>
-
 
     <section id="two">
       <div class="container">
-          <div class="row">
-            <div class="col-sm-4" style="text-align:center">
-<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-            </div>
-            <div class="col-sm-4" style="text-align:center">
-<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-            </div>
-            <div class="col-sm-4" style="text-align:center">
-<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-            </div>
+        <div class="row">
+          <h2>Research</h2>
+          <p>At Cornell, I was able to be involved in a variety of research projects, both through PhD level classes and research groups.</p>
+        </div>
+        <div id="researchs">
+          <div class="row org">
+              <h2>Dynamically Adding and Removing Neurons from Neural Networks</h2>
+              <p>  The goal of this project was to develop more
+                general methods to learn efficient and effective
+                neural network architectures for certain applications.
+                It is difficult to find effective and efficient
+                architectures for applications. This often leads to
+                networks being larger and more inefficient than they
+                need to be. We are developing an algorithm that can
+                apply iterative pruning while also adding nodes to
+                allow for a neural network to learn a better size
+                and structure.
+              </p>
+
+              <h4><a href="papers/CS_6787_Final_Report.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/RohitBandaru/PruneNN" target="_blank">[Code]</a></h4>
           </div>
+
+          <div class="row org">
+              <h2>Accurate Kernel Interpolation with Compactly Supported Kernels</h2>
+              <p> This project aims to use compactly support kernels to
+                make scalable KISS-GP Gaussian process framework more accuracte and efficient.
+              </p>
+
+              <h4><a href="papers/ORIE6741_paper.pdf" target="_blank">[Paper]</a></h4>
+          </div>
+
+          <div class="row org">
+              <h2>Pancreatic Tumor Classification</h2>
+              <p> This project sought to explore the different deep
+                learning architectures that can be used for the
+                classifcation of pancreatic tumors. Early detection
+                and classification of these tumors is critical for
+                treatment. We developed a model that achieved 69.8%
+                classification accuracy on our dataset.
+              </p>
+
+              <h4><a href="papers/final.pdf" target="_blank">[Paper]</a></h4>
+          </div>
+
+          <div class="row org">
+              <h2>Seizure Detection</h2>
+              <p> This project employs machine learning for seizure
+                detection using electroencephalography (EEG) data.
+                Detection is an important problem in treating epilepsy.
+                We used time series data, and wavelet transform
+                coefficients with dimensionality reduction on support
+                vector machine and random forest machine learning models.
+                We were able to achieve over 80% area under ROC curve
+                performance.
+              </p>
+
+              <h4><a href="papers/seizure-detection.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/RohitBandaru/SeizureDetection" target="_blank">[Code]</a></h4>
+          </div>
+        </div>
+
       </div>
-    </section>-->
+    </section>
 
     <section id="three">
-
       <div class="container">
         <div class="row">
           <h2>Organizations</h2>
           <p>I have had the pleasure with great organizations including engineering companies and project teams. I would like to share the interesting work and projects that I have been involved with.</p>
         </div>
-        
+
           <div id="orgs">
             <div class="row vertical-align org">
               <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
@@ -148,7 +173,7 @@
                 <p>I worked with this enterprise intelligence start up to develop an iOS application to complement their web service by letting job recruiters intuitively search the company's database for potential candidates and effortlessly contact them. I gained significant experience in UX design and mobile development.  <a href="#hunamakiamodal" data-toggle="modal" data-target="#hunamakiamodal">Learn more...</a></p>
               </div>
             </div>
-            
+
             <div class="row vertical-align org">
               <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
                 <div class="img-responsive" style="text-align:center; margin-top:-25%; margin-left:-9%"><img src="images/logo.png" class="resize"/></div>
@@ -159,10 +184,10 @@
                   <a href="#abikemodal" data-toggle="modal" data-target="#abikemodal">Learn more...</a></p>
               </div>
             </div>
-          
+
           </div>
         </div>
-      
+
 
     </section>
 
@@ -182,7 +207,7 @@
 
                 <p>For the current 2017 project, I trained the new members with wet lab work and continued with the entrepreneurial and sponsorship aspects of the business team. I am also working with the product development subteam to engineer hardware and software for the project.</p>
             </div>
-            
+
         </div>
     </div>
 </div>
@@ -206,7 +231,7 @@
                 After going through multiple design cycles, I began developing the application for iOS with Swift. Using libraries such as SwiftyJSON, and Alamofire, I was able to write clean and extensible networking code. I also worked with many different development frameworks including AudioKit to record voicemails and MessageUI to send emails within the app.
                 </p>
             </div>
-            
+
         </div>
     </div>
 </div>
@@ -224,12 +249,12 @@
                   Cornell Autonomous Bicycle Team is an engineering project team composed of a variety of different engineering majors, with the goal of developing an efficient and intelligent self driving bicycle.
                 </p>
                 <p>
-                I also led development of the web application component of the system. This was meant to provide an interface to create a bike route with Google Maps and send the navigation data to the bicycle hardware. It also receives physical debugging data such as speed, position, and lean angle, and stores it in a PostgreSQL database. 
+                I also led development of the web application component of the system. This was meant to provide an interface to create a bike route with Google Maps and send the navigation data to the bicycle hardware. It also receives physical debugging data such as speed, position, and lean angle, and stores it in a PostgreSQL database.
                 </p>
                 <p>The main functions of the web application are navigation and data storage and analysis. The web server sends navigation data to the bicycle using the Google Maps API. It receives data from the hardware and stores it in a PostgreSQL database. There is also an interface to download and interact with the data. This data is physical state data from the bicycle (velocity, lean angle, etc.) and is used to optimize performance.
                 </p>
             </div>
-            
+
         </div>
     </div>
 </div>
@@ -247,7 +272,7 @@
           <div style="text-align:center">
             <h2>HeapSort</h2>
             <h3>Big Red Hacks 2016</h3></div>
-            <a href="http://heapsort.net/"> <img src="images/heapsortnet.jpg" class="hover_enlarge img-responsive"/> </a>
+            <img src="images/heapsortnet.jpg" class="hover_enlarge img-responsive"/>
 
             <p style="margin-top: 15px">A lot of recycable waste is not recycled simply due to confusion on whether items are recycable or not. This concept aims to alleviate that confusion by using computer vision to categorize trash items into three categories: "landfill", "recycle", "compost".</p>
             </div>
@@ -304,7 +329,7 @@
         </div>
       </div>
 
-      </div> 
+      </div>
     </div>
     </section>
 
