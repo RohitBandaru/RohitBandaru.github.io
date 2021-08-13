@@ -8,11 +8,7 @@
     color: #1EB74D;
     font-family: Raleway;
   }
-  h1 {
-    font-size: 48;
-  }
-
-
+  
   p {
     color: #696969;
     font-family: Open Sans;
@@ -56,9 +52,6 @@ span {
 display:table;
 margin:0 auto;
 }
-
-
-
 
 img {
     width: 100%;
@@ -108,7 +101,7 @@ ul.icons li a {
 
 #orgs {
     margin-top: -30;
-} 
+}
 #orgs .org:first-child {
     margin-top: 15;
 }
@@ -116,15 +109,15 @@ ul.icons li a {
     border:none;
 }
 
-/* 
+/*
 
-ORGANIZATION MODALS 
+ORGANIZATION MODALS
 
 */
 .modal-content  {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
-    border-radius: 0px !important; 
+    border-radius: 0px !important;
 }
 .modal-header img{
   margin-top: -2.6%;
@@ -147,7 +140,7 @@ section{
     padding:15px;
 }
 
-/* 
+/*
 
 PROJECT
 
@@ -201,6 +194,3 @@ PROJECT
 .icon a:hover, a:visited, a:link, a:active{
   text-decoration: none !important;
 }
-
-
-
